@@ -11,7 +11,7 @@ class Game(window.Window):
     def __init__(self, width: int, height: int, caption: str):
         super().__init__(width=width, height=height, caption=caption)
         self.game_manager = {
-            'main': GameMain,
+            # 'main': GameMain,
             'Development': LevelEditor,
             'Game Start': GameStart
         }
