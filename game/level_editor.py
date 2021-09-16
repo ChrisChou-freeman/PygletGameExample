@@ -71,6 +71,7 @@ class LevelEditor(GameManager):
             self.key_hold.remove(key)
 
     def update(self, _) -> None:
+        # print(dt)
         for k in self.key_hold:
             if key_left(k):
                 if self.layer_list[self.layer_number-1].x >= 0:
